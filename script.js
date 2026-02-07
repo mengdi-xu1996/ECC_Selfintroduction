@@ -1,7 +1,6 @@
 // 科幻主题问题列表
 const questions = [
-    下面是把你所有问题统一格式成同一种风格（每条一行，英文 + 中文注释，双引号包裹）的版本，直接可用：
-
+   
     "Describe the last small thing that made you laugh for no reason.（最近一件让你无缘无故笑出来的小事是什么？）",
     
     "When you were a child, what did you do just for fun — but adults thought it was useless?（小时候你做过哪些只是为了好玩，但大人觉得没用的事？）",
