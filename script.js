@@ -1,21 +1,44 @@
 // 科幻主题问题列表
 const questions = [
-    "Describe your ideal day. How would you spend it?（描述一下你心目中理想的一天应该怎么度过？）",
-"If you could set the speed of your life, would you choose 0.75x or 1.25x?（如果给生活按一个倍速，你希望是 0.75x 还是 1.25x？）",
-"At what battery percentage on your phone do you start to feel anxious and need to charge it?（手机的电掉到百分之多少之后，你就会开始变得焦虑，必须要去充电？）",
-"Is there a song or a phrase that instantly makes you slow down? Share and explain.（有没有一首歌或一句话会让你立刻放慢脚步？分享并解释）",
-"Do you feel like too many meetings steal your time?（你会不会因为开会太多感觉时间被“偷走”？）",
-"Why do you think modern people are increasingly afraid of silence or boredom?（你觉得现代人为什么越来越怕安静、怕无聊？）",
-"Is your current pace your own, or are you being pushed along?（你现在的节奏是“自己的节奏”还是“被推着走”？）",
-"Do you ever feel like algorithms are controlling you, making you scroll endlessly?（你有没有被算法带着跑的感觉？比如越刷手机越停不下来。）",
-"In today's 'instant reply era,' how long is a normal time to respond to messages?（在现在这个“信息秒回时代”，你认为多久回复消息算“正常节奏”？）",
-"What are some things that really need to be done slowly to be enjoyable?（你觉得什么事情必须慢慢来才有味道？）",
-"If you could write a reminder to your future self to maintain your own pace, what would it be? Explain.（如果要给未来的自己写一句提醒，帮助保持“你自己的节奏”，你会写什么？写句子并解释）",
-"What is the one activity that relaxes you the most?（最让你放松的一件事是什么？）",
-"Do you have something you’ve been procrastinating, but once you did it, it wasn’t as hard as you thought? Why?（有没有一个你一直拖着不做，但最后做完发现没想象中那么难的例子？为什么会拖）",
-"Share a small hobby you’ve recently picked up. How does it help you adjust your pace?（分享一个你最近培养的小兴趣，它如何帮助你调整节奏。讲效果）",
-"If you could compare your life pace to a vehicle, which one would it be and why?（如果把你现在的生活节奏比喻成一种交通工具，它是什么？解释为什么）"
+    下面是把你所有问题统一格式成同一种风格（每条一行，英文 + 中文注释，双引号包裹）的版本，直接可用：
 
+    "Describe the last small thing that made you laugh for no reason.（最近一件让你无缘无故笑出来的小事是什么？）",
+    
+    "When you were a child, what did you do just for fun — but adults thought it was useless?（小时候你做过哪些只是为了好玩，但大人觉得没用的事？）",
+    
+    "What is something you enjoy, but you almost never tell other people?（有没有一件你其实很喜欢，但几乎不跟别人说的事？）",
+    
+    "If you had one free afternoon and no phone, no computer, what would you do just for fun?（如果你有一个完全空闲的下午，而且不能用手机和电脑，你会做什么来打发时间？）",
+    
+    "What do you usually do for fun when you feel tired after work or study?（下班或下课很累的时候，你一般怎么放松、找点乐子？）",
+    
+    "If money and other people’s opinions didn’t matter, what would you like to try just for fun?（如果不用担心钱，也不用在意别人看法，你最想尝试什么纯为了好玩的事？）",
+    
+    "Do you think ‘just for fun’ is important for adults? Why or why not?（你觉得“只是为了开心”对成年人重要吗？为什么？）",
+    
+    "What is a very cheap or free thing that brings you a lot of fun?（有没有一种很便宜，甚至免费的快乐来源？）",
+    
+    "What was your favorite way to have fun when you were a child or a student? Is it different now?（你小时候或学生时代最喜欢的娱乐方式是什么？现在有变化吗？）",
+    
+    "Have you ever tried something just for fun and then accidentally became quite good at it?（你有没有因为好玩开始做一件事，结果后来还挺擅长的？）",
+    
+    "What do you usually watch, read, or listen to just for fun — not for learning or self-improvement?（你平时纯为了娱乐，会看什么、读什么或听什么？不是为了学习那种。）",
+    
+    "What is one silly habit you have that makes you feel happy?（你有没有一个有点傻的小习惯，但会让你很开心？）",
+    
+    "When was the last time you did something only because you wanted to, not because you had to?（你上一次做一件事只是因为想做，而不是因为必须，是在什么时候？）",
+    
+    "If your job suddenly disappeared for one month, how would you spend that month just for fun?（如果你的工作突然消失一个月，你会怎么用这一个月来好好玩？）",
+    
+    "What is the most interesting thing you did in the last month?（你最近一个月做过的最有趣的一件事是什么？）",
+    
+    "If you could have a monthly ‘fun budget’ that could only be used to make you happy, what would you spend it on?（如果你每个月有一笔只能用来让自己开心的“快乐预算”，你会花在什么上？）",
+    
+    "What’s a simple and free activity that always cheers you up, like blowing bubbles, skipping, or singing off-key?（有没有一种简单又免费的事，总能让你开心，比如吹泡泡、跳绳、跑调唱歌？）",
+    
+    "If you could invent a new holiday just for fun, what would it celebrate and how would people celebrate it?（如果你能发明一个纯为了好玩的节日，它会庆祝什么？大家会怎么过？）",
+    
+    "What’s a funny or weird talent you have that most people don’t know about?（你有什么好笑或奇怪的小技能，是大多数人不知道的？）"    
 ];
 
 // 游戏状态
